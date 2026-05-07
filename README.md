@@ -166,8 +166,6 @@ MAIL_FROM_ADDRESS=your_email@gmail.com
 MAIL_FROM_NAME="CBE LMS"
 ```
 
-> ⚠️ **Never commit your `.env` file.** It is already listed in `.gitignore`.
-
 ---
 
 ## 🗄 Database Setup
