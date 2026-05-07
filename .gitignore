@@ -1,0 +1,56 @@
+# ============================================================
+#  CBE LMS – Git Ignore Rules
+# ============================================================
+
+# ---- Environment / Secrets ----
+.env
+*.env
+!.env.example
+
+# ---- PHP Dependencies ----
+/vendor/
+
+# ---- Composer lock (optional: uncomment to pin exact versions) ----
+# composer.lock
+
+# ---- Uploaded files (user content) ----
+/public/uploads/
+
+# ---- Dev-only utility scripts (contain or may expose credentials) ----
+desc.php
+hash.php
+
+# ---- Database dumps / migrations output ----
+/database/
+*.sql
+*.sqlite
+*.db
+
+# ---- OS junk ----
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---- Editor / IDE files ----
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
+nbproject/
+*.code-workspace
+
+# ---- Logs ----
+*.log
+/logs/
+/storage/logs/
+
+# ---- Compiled / cached assets ----
+/cache/
+/tmp/
+/storage/cache/
+
+# ---- PHP error / debug files ----
+php_errors.log
+error_log
