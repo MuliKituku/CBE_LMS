@@ -49,7 +49,7 @@
         </div>
 
         <div class="hero-image">
-            <img src="/CBE_LMS/public/images/hero.jpg" alt="CBE Classroom Kenya">
+            <img src="/CBE_LMS/public/images/hero.png" alt="CBE Classroom Kenya">
         </div>
 
     </div>

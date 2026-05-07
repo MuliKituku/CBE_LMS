@@ -20,9 +20,10 @@
 desc.php
 hash.php
 
-# ---- Database dumps / migrations output ----
-/database/
-*.sql
+# ---- Database dumps / backups (keep schema files, exclude data dumps) ----
+*_dump.sql
+*_backup.sql
+*_data.sql
 *.sqlite
 *.db
 
